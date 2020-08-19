@@ -1,7 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+
+function Example() {
+    const [count, setCount] = useState(0);
+    
+    function handleAlertClick() {
+        setTimeout(() => {
+            alert('You clicked on: ' + count);
+        }, 1000);
+    }
+    
+    return (
+        <div>
+            <p>You clicked {count} times</p>
+            <button onClick={() => setCount(count + 1)}>
+                Click me
+            </button>
+            <button onClick={handleAlertClick}>
+                Show alert
+            </button>
+        </div>
+    );
+}
+
 
 function App() {
   return (
@@ -50,6 +73,7 @@ function App() {
             React Redux
           </a>
         </span>
+        <Example/>
       </header>
     </div>
   );
