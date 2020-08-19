@@ -1,2 +1,2 @@
-# reactapp-with-redux
-redux1: reactapp-with-redux
+# react-app-withredux
+study redux and then react-redux
