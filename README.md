@@ -1,6 +1,5 @@
-# 代码来自：https://www.redux.org.cn/docs/basics/ExampleTodoList.html
-
-## Available Scripts
+# 代码来自：
+https://www.redux.org.cn/docs/basics/ExampleTodoList.html
 
 In the project directory, you can run:
 
